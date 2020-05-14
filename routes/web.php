@@ -11,7 +11,7 @@
 |
 */
 Route::get('/', function () {
-    return view('welcome');
+    return view('Principal');
 });
 
 Route::get('/welcome', function () {
@@ -23,21 +23,36 @@ Route::get('/Ingresar', function () {
 Route::get('/Registrar', function () {
     return view('Registrar');
 });
-Route::get('/Informacion', function () {
-    return view('Informacion');
-});
+
 Route::get('/Contactenos', function () {
     return view('Contactenos');
 });
-Route::get('/Sugerencias', function () {
-    return view('Sugerencias');
+
+
+Route::get('/Principal', function () {
+    return view('Principal');
+});
+Route::get('/RegistrarTrabajador', function () {
+    return view('RegistrarTrabajador');
+});
+Route::get('/RegistroProducto', function () {
+    return view('RegistroProducto');
+});
+Route::get('/RegistroInsumo', function () {
+    return view('RegistroInsumo');
 });
 
+Route::get('/TablaTrabajador', function () {
+    return view('TablaTrabajador');
+});
+Route::get('/TablaProducto', function () {
+    return view('TablaProducto');
+});
+Route::get('/TablaInsumo', function () {
+    return view('TablaInsumo');
+});
 //Controlador del modelo de la base de datos con ORM
-Route::get('/usuario','ControlGeneral@usuario');
+
 Route::get('/insumo','ControlGeneral@insumo');
 Route::get('/trabajadores','ControlGeneral@trabajadores');
 Route::get('/produccion','ControlGeneral@produccion');
-Route::get('/contabilidadProduccion','ControlGeneral@contabilidadProduccion');
-Route::get('/contabilidadInsumo','ControlGeneral@contabilidadInsumo');
-Route::get('/contabilidadTrabajadores','ControlGeneral@contabilidadTrabajadores');

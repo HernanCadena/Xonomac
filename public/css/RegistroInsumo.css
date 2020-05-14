@@ -1,0 +1,111 @@
+html, body {
+
+
+    color: #F6F6F6;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #F6F6F6;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+.form1{
+    align:center;
+    position: fixed;
+    z-index: 100;
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.form-registro{
+    width: 380px;
+    background: #24303c;
+    padding: 20px;
+    margin: auto;
+    margin-top:50px ;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-registro h4{
+   font-size: 22px;
+   margin-bottom: 20px;
+}
+
+.control{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #1f53c5;
+    font-size: 18px;
+}
+
+.form-registro p{
+    height: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+.form-registro a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.form-registro .botons{
+    width: 40%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px;
+    font-size:16px;
+}
+
+
